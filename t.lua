@@ -10,7 +10,7 @@ _L.Font = Enum.Font.GothamBold
 _L.TextSize = 25
 _L.TextStrokeTransparency = 0.5
 
---anh ma hoa full phan ten
+--anh
 local _K = {0x48, 0xC3, 0xB9, 0x6E, 0x67, 0x20, 0x48, 0x75, 0x62, 0x20, 0x4D, 0x6F, 0x64, 0x65}
 local _D = ""
 for i=1, #_K do _D = _D .. string.char(_K[i]) end
